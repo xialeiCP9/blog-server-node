@@ -4,7 +4,7 @@ module.exports = app => {
     mergeParams: true
   })
   require('express-async-errors') // express不能捕获Promise异常搞了个破解包，因此需该包
-  const assert = require('http-assert')
+  const assert = require('http-assert') //断点
   const jwt = require('jsonwebtoken')
   const authMiddleware = require('../../middleware/authMiddleware')
 
