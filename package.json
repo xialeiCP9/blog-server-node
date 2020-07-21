@@ -1,0 +1,27 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xialei",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "gm": "^1.23.1",
+    "http-assert": "^1.4.1",
+    "inflection": "^1.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^2.4.5",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.10"
+  }
+}
